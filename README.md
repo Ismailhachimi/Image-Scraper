@@ -27,6 +27,18 @@ The `--google` argument describes the scraper state to be used or not. Per defau
 The same for the `--insta` argument but keep in mind that you may want to keep the GoogleScraper only due to the quality and coherence of images. 
 Finally, `--gsize` is the google image size we want to scrape. We can use 's' for small, 'm' for medium and 'l' for large.
 
+## Separated use of Scrapers
+### Example in Python
+in the current direcory, we can call the Google Scraper with the following example :
+
+    >>> from GoogleScraper import GoogleScraper
+    >>> scraper = GoogleScraper(query='paris', size='l')
+    >>> scraper.get_urls()
+    >>> scraper.parse_urls()
+    >>> scraper.load_images()
+
+**Note**: The functions are seperated and put in a class, so that you can different objects in case you want to scraper more than one query.
+
 ## Next Updates
 Keep an eye on this repository by forking or giving a star because there will be some changes and improvements in the scripts. 
 
