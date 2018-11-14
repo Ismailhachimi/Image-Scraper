@@ -43,9 +43,3 @@ in the current direcory, we can call the Google Scraper with the following examp
 Keep an eye on this repository by forking or giving a star because there will be some changes and improvements in the scripts. 
 
 ---
-**Feel free to use the script as you like.**
-
-**In case of use, a reference will be appreciated !**
-
-
-
